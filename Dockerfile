@@ -15,7 +15,7 @@ RUN npm install
 
 # If you are building your code for proeuction 
 
-COPY ..
+COPY . .
 
 EXPOSE 81
 ENTRYPOINT ['node', 'server.js']
